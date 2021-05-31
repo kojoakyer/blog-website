@@ -1,0 +1,21 @@
+
+<%- include('partials/header') -%>
+
+
+<h1>Here are the weather conditions in <%=query%></h1>
+<h3> the atmospheric pressure in  <%=query%> is <%=pressure%> </h3>
+<% if (pressure <= 1000){%>
+  <p>the atmospheric pressure is good today</p>
+<%}else {%>
+  <p>The pressure is high today</p>
+<%}%>
+
+<h3> the temperature feels like <%=temp%> degrees. </h3>
+<img src= <%=imageUrl%>>
+
+
+
+
+
+
+<%- include('partials/footer') -%>

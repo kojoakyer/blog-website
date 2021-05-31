@@ -1,0 +1,69 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: lightgrey;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.header{
+  margin-top: 30px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.mybtn{
+  margin-top: 10px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.input{
+  display: block;
+}
+
+/* .b{
+  margin-top: 20px;
+} */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: white;
+  text-align: center;
+  background-color: #1abc9c;
+  border-top: .05rem solid #e5e5e5;
+  margin-top: 200px;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.compose{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  
+}
